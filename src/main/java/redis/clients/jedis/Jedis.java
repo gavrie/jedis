@@ -38,6 +38,7 @@ public class Jedis extends BinaryJedis implements JedisCommands, MultiKeyCommand
   protected JedisPoolAbstract dataSource = null;
 
   public Jedis() {
+    // Add some stuff
     super();
   }
 
